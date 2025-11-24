@@ -1,1 +1,83 @@
+/* Font general */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    color: #333;
+}
+
+/* Link-uri */
+a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header & meniu */
+header {
+    background-color: #f5f5f5;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+/* Titluri */
+h1, h2, h3 {
+    text-align: center;
+    color: #222;
+}
+
+/* Conținut principal */
+main, section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    line-height: 1.7;
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* Imagine profil */
+#despre img {
+    width: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Contact */
+.contact-info {
+    text-align: center;
+    font-size: 20px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+/* Responsiv pentru telefon */
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 8px;
+        font-size: 16px;
+    }
+
+    main, section {
+        margin: 20px 10px;
+        padding: 15px;
+    }
+}
 
