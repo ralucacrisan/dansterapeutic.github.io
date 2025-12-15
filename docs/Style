@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap');
 
-/* Font general */
+/* FONT GENERAL */
 body {
     font-family: 'Dancing Script', cursive;
     margin: 0;
@@ -9,7 +9,7 @@ body {
     color: #333;
 }
 
-/* Link-uri */
+/* LINK-URI */
 a {
     color: #333;
     text-decoration: none;
@@ -20,26 +20,32 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Header & meniu */
+/* HEADER & MENIU */
 header {
     background-color: #f5f5f5;
-    padding: 15px 0;
-    text-align: center;
+    padding: 20px 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-nav a {
-    margin: 0 15px;
-    font-size: 18px;
+nav {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* Titluri */
+nav a {
+    font-size: 22px;
+}
+
+/* TITLURI */
 h1, h2, h3 {
     text-align: center;
     color: #222;
 }
 
-/* Conținut principal */
+/* CONȚINUT */
 main, section {
     max-width: 900px;
     margin: 40px auto;
@@ -51,7 +57,7 @@ main, section {
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-/* Imagine profil */
+/* IMAGINE PROFIL */
 #despre img {
     width: 250px;
     border-radius: 50%;
@@ -59,7 +65,7 @@ main, section {
     margin: 20px auto;
 }
 
-/* Contact */
+/* CONTACT */
 .contact-info {
     text-align: center;
     font-size: 20px;
@@ -69,20 +75,7 @@ main, section {
     margin: 10px 0;
 }
 
-/* Responsiv pentru telefon */
-@media (max-width: 600px) {
-    nav a {
-        display: inline-block;
-        margin: 8px;
-        font-size: 16px;
-    }
-
-    main, section {
-        margin: 20px 10px;
-        padding: 15px;
-    }
-}
-
+/* BUTON PROGRAMARE */
 .button-sedinta {
     display: inline-block;
     padding: 12px 25px;
@@ -96,3 +89,20 @@ main, section {
     text-align: center;
 }
 
+/* RESPONSIV – TELEFON */
+@media (max-width: 600px) {
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    main, section {
+        margin: 20px 10px;
+        padding: 15px;
+    }
+}
