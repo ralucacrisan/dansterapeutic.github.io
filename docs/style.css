@@ -1,4 +1,6 @@
-/* FONT GENERAL */
+/* =========================
+   FONT GENERAL
+========================= */
 body {
     font-family: 'Dancing Script', cursive;
     margin: 0;
@@ -7,21 +9,31 @@ body {
     color: #333;
 }
 
-/* LOGO */
+/* =========================
+   LOGO
+========================= */
 .logo {
     width: 150px;
     display: block;
     margin: 20px auto;
 }
 
-/* LINK-URI GENERALE */
+/* =========================
+   LINK-URI GENERALE
+========================= */
 a {
     color: #333;
     text-decoration: none;
     font-weight: 600;
 }
 
-/* HEADER & MENIU */
+a:hover {
+    opacity: 0.7;
+}
+
+/* =========================
+   HEADER & MENIU
+========================= */
 header {
     background-color: #f5f5f5;
     padding: 22px 0;
@@ -32,79 +44,4 @@ nav {
     max-width: 900px;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
-    gap: 36px;
-    align-items: center;
-}
-
-nav a {
-    font-size: 22px;
-    letter-spacing: 0.8px;
-}
-
-nav a:hover {
-    opacity: 0.7;
-}
-
-/* TITLURI */
-h1,
-h2 {
-    text-align: center;
-    color: #222;
-}
-
-/* CONTINUT */
-main {
-    max-width: 900px;
-    margin: 50px auto;
-    padding: 35px;
-    background-color: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-    line-height: 1.7;
-    font-size: 20px;
-    text-align: center;
-}
-
-/* BUTON PROGRAMARE */
-.button-sedinta {
-    display: inline-block;
-    padding: 14px 34px;
-    background-color: #cc6699;
-    color: #ffffff;
-    border-radius: 10px;
-    font-size: 22px;
-    font-weight: 600;
-    margin: 30px auto;
-}
-
-.button-sedinta:hover {
-    opacity: 0.85;
-}
-
-/* STATUS TEXT */
-.status {
-    margin-top: 30px;
-    font-size: 18px;
-    opacity: 0.7;
-}
-
-/* RESPONSIV (mobil) */
-@media (max-width: 600px) {
-    nav {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 14px;
-    }
-
-    nav a {
-        font-size: 18px;
-        letter-spacing: 0.4px;
-    }
-
-    main {
-        margin: 20px 12px;
-        padding: 22px;
-        font-size: 18px;
-    }
-}
+    justify-content: ce
