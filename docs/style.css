@@ -22,13 +22,13 @@ body {
    LINK-URI GENERALE
 ========================= */
 a {
-    color: #b04a7a;                 /* CULOARE VIZIBILĂ PENTRU LINKURI */
+    color: #00A651;                 /* VERDE CRUD PENTRU LINKURI */
     text-decoration: underline;
     font-weight: 600;
 }
 
 a:hover {
-    color: #7a2f54;                 /* MAI ÎNCHIS LA HOVER */
+    color: #007A3D;                 /* VERDE MAI ÎNCHIS LA HOVER */
     opacity: 1;
 }
 
@@ -96,7 +96,7 @@ main {
 .button-sedinta {
     display: inline-block;
     padding: 14px 34px;
-    background-color: #cc6699;
+    background-color: #00A651;      /* VERDE CRUD */
     color: #ffffff;
     border-radius: 10px;
     font-size: 22px;
@@ -106,7 +106,8 @@ main {
 }
 
 .button-sedinta:hover {
-    opacity: 0.85;
+    background-color: #007A3D;      /* VERDE MAI ÎNCHIS */
+    opacity: 1;
 }
 
 /* =========================
