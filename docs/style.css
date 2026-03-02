@@ -214,3 +214,18 @@ main {
 .subpage-link a:hover {
   opacity: 0.7;
 }
+
+.instagram-full {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-bottom: 40px;
+}
+
+.instagram-full .instagram-media {
+  max-width: 100% !important;
+  width: 100% !important;
+}
