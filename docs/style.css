@@ -197,3 +197,20 @@ main {
         line-height: 1.7;
     }
 }
+
+.subpage-link {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.subpage-link a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: #7a3e48; /* poți schimba culoarea */
+  transition: 0.3s ease;
+}
+
+.subpage-link a:hover {
+  opacity: 0.7;
+}
