@@ -246,3 +246,29 @@ main {
   margin: 60px auto;
   padding: 0 20px;
 }
+
+/* =========================
+   PAGINA TANGO ARGENTINIAN
+   (stil aplicat DOAR acestei pagini)
+========================= */
+
+.tango-page {
+    max-width: 1000px;        /* puțin mai aerisit decât restul */
+    margin: 60px auto;
+    padding: 40px 30px;
+}
+
+.tango-page h1 {
+    margin-top: 30px;
+}
+
+.tango-page .instagram-wrapper {
+    max-width: 750px;         /* lățime echilibrată pentru video */
+    margin: 0 auto 50px auto;
+    padding: 0;
+}
+
+.tango-page .instagram-media {
+    max-width: 100% !important;
+    width: 100% !important;
+}
