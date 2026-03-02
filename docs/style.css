@@ -229,3 +229,14 @@ main {
   max-width: 100% !important;
   width: 100% !important;
 }
+
+.instagram-wrapper {
+  max-width: 900px;   /* controlează lățimea */
+  margin: 60px auto;  /* centru + spațiu sus/jos */
+  padding: 0 20px;    /* margini pe mobil */
+}
+
+.instagram-wrapper .instagram-media {
+  max-width: 100% !important;
+  width: 100% !important;
+}
