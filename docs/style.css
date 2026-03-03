@@ -22,13 +22,13 @@ body {
    LINK-URI GENERALE
 ========================= */
 a {
-    color: #00A651;                 /* VERDE CRUD PENTRU LINKURI */
+    color: #00A651;
     text-decoration: underline;
     font-weight: 600;
 }
 
 a:hover {
-    color: #007A3D;                 /* VERDE MAI ÎNCHIS LA HOVER */
+    color: #007A3D;
     opacity: 1;
 }
 
@@ -53,7 +53,7 @@ nav {
 nav a {
     font-size: 22px;
     letter-spacing: 0.8px;
-    text-decoration: none;          /* MENIU FĂRĂ SUBLINIERE */
+    text-decoration: none;
 }
 
 /* =========================
@@ -96,7 +96,7 @@ main {
 .button-sedinta {
     display: inline-block;
     padding: 14px 34px;
-    background-color: #00A651;      /* VERDE CRUD */
+    background-color: #00A651;
     color: #ffffff;
     border-radius: 10px;
     font-size: 22px;
@@ -106,8 +106,7 @@ main {
 }
 
 .button-sedinta:hover {
-    background-color: #007A3D;      /* VERDE MAI ÎNCHIS */
-    opacity: 1;
+    background-color: #007A3D;
 }
 
 /* =========================
@@ -154,50 +153,8 @@ main {
 }
 
 /* =========================
-   RESPONSIV – MOBIL
+   LINK SUBPAGINA
 ========================= */
-@media (max-width: 600px) {
-
-    nav {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 14px;
-    }
-
-    nav a {
-        font-size: 18px;
-        letter-spacing: 0.4px;
-    }
-
-    main {
-        margin: 20px 12px;
-        padding: 22px;
-        font-size: 18px;
-    }
-
-    h1 {
-        font-size: 30px;
-    }
-
-    h2 {
-        font-size: 24px;
-    }
-
-    .despre-content {
-        flex-direction: column;
-    }
-
-    .despre-text {
-        max-width: 100%;
-        text-align: left;
-    }
-
-    .despre-text p {
-        font-size: 16px;
-        line-height: 1.7;
-    }
-}
-
 .subpage-link {
   text-align: right;
   margin-bottom: 20px;
@@ -207,7 +164,7 @@ main {
   text-decoration: none;
   font-weight: 600;
   font-size: 24px;
-  color: #7a3e48; /* poți schimba culoarea */
+  color: #7a3e48;
   transition: 0.3s ease;
 }
 
@@ -215,65 +172,33 @@ main {
   opacity: 0.7;
 }
 
-<style>
-  body {
-    margin: 0;
-    background: #fafafa;
-  }
+/* =====================================================
+   PAGINA TANGO ARGENTINIAN
+===================================================== */
 
-  .hero-image {
-    width: 100%;
-    height: auto;        /* important */
-    display: block;
-  }
-
-  .tango-title {
-    text-align: center;
-    font-size: 42px;
-    margin: 50px 20px;
-  }
-</style>
-
-.tango-section {
+/* Hero image */
+.hero-container {
+  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 60px;
-  max-width: 1200px;
-  margin: 80px auto;
-  padding: 0 40px;
+  margin-bottom: 40px;
 }
 
-.tango-side-image {
-  width: 50%;
-  max-width: 600px;
-  height: auto;
+.hero-container img {
+  width: 100%;
+  max-height: 100vh;
+  object-fit: contain;
+  display: block;
 }
 
-.tango-text {
-  width: 50%;
-  font-size: 20px;
-  line-height: 1.7;
+/* Titlu tango */
+.tango-title {
+  text-align: center;
+  font-size: 42px;
+  margin: 60px 20px;
 }
 
-/* Responsive – pe mobil */
-@media (max-width: 900px) {
-  .tango-section {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .tango-side-image,
-  .tango-text {
-    width: 100%;
-  }
-}
-
-
-/* =========================
-   SECTIUNE TANGO – POZA + TEXT
-========================= */
-
+/* Sectiune poza + text */
 .tango-row {
   width: 100%;
   max-width: 1200px;
@@ -293,16 +218,60 @@ main {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 12px;
 }
 
 .tango-text-col {
   flex: 1;
   font-size: 20px;
   line-height: 1.7;
+  text-align: left;
 }
 
-/* Responsive */
+/* =========================
+   RESPONSIVE – MOBIL
+========================= */
 @media (max-width: 900px) {
+
+  nav {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 14px;
+  }
+
+  nav a {
+      font-size: 18px;
+      letter-spacing: 0.4px;
+  }
+
+  main {
+      margin: 20px 12px;
+      padding: 22px;
+      font-size: 18px;
+  }
+
+  h1 {
+      font-size: 30px;
+  }
+
+  h2 {
+      font-size: 24px;
+  }
+
+  .despre-content {
+      flex-direction: column;
+  }
+
+  .despre-text {
+      max-width: 100%;
+      text-align: left;
+  }
+
+  .despre-text p {
+      font-size: 16px;
+      line-height: 1.7;
+  }
+
   .tango-row {
     flex-direction: column;
     gap: 30px;
