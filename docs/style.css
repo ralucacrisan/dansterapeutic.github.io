@@ -329,3 +329,14 @@ main {
   opacity: 0.7;
   text-align: center;
 }
+
+/* =========================
+   VIDEO INSTAGRAM
+========================= */
+.tango-video {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+}
