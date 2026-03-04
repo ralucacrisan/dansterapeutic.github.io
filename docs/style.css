@@ -301,3 +301,31 @@ main {
   display: block;
   border-radius: 10px;
 }
+
+/* =========================
+   GALERIE VERTICALA (pozele de jos)
+========================= */
+.tango-gallery-vertical {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.tango-gallery-vertical img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+/* Credit foto */
+.foto-credit {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
+  opacity: 0.7;
+  text-align: center;
+}
