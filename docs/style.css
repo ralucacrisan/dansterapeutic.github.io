@@ -332,18 +332,18 @@ main {
 
 
 /* =========================
-   VIDEO INSTAGRAM MARE
+   VIDEO INSTAGRAM – PROPORTIE ECHILIBRATA
 ========================= */
 .tango-video {
-  max-width: 900px;
-  margin: 100px auto;
+  max-width: 700px;     /* mai îngust */
+  margin: 80px auto;
   padding: 0 20px;
 }
 
 .tango-video iframe {
   width: 100%;
-  aspect-ratio: 9 / 16;   /* proporție reel vertical */
+  aspect-ratio: 4 / 5;   /* mai compact decat 9/16 */
   border-radius: 16px;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.12);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.10);
   border: none;
 }
