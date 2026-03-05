@@ -356,3 +356,10 @@ main {
         flex-direction: column;
     }
 }
+
+/* =========================
+   FUNDAL PAGINA TANGO
+========================= */
+.tango-page {
+    background-color: #e9dccb;   /* bej elegant */
+}
