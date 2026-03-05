@@ -29,7 +29,6 @@ a {
 
 a:hover {
     color: #007A3D;
-    opacity: 1;
 }
 
 /* =========================
@@ -59,8 +58,7 @@ nav a {
 /* =========================
    TITLURI
 ========================= */
-h1,
-h2 {
+h1, h2 {
     text-align: center;
     color: #222;
 }
@@ -156,20 +154,20 @@ main {
    LINK SUBPAGINA
 ========================= */
 .subpage-link {
-  text-align: right;
-  margin-bottom: 20px;
+    text-align: right;
+    margin-bottom: 20px;
 }
 
 .subpage-link a {
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 24px;
-  color: #7a3e48;
-  transition: 0.3s ease;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+    color: #7a3e48;
+    transition: 0.3s ease;
 }
 
 .subpage-link a:hover {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 /* =====================================================
@@ -178,54 +176,127 @@ main {
 
 /* Hero image */
 .hero-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 40px;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 .hero-container img {
-  width: 100%;
-  max-height: 100vh;
-  object-fit: contain;
-  display: block;
+    width: 100%;
+    max-height: 100vh;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Titlu tango */
 .tango-title {
-  text-align: center;
-  font-size: 42px;
-  margin: 60px 20px;
+    text-align: center;
+    font-size: 42px;
+    margin: 60px 20px;
 }
 
 /* Sectiune poza + text */
 .tango-row {
-  width: 100%;
-  max-width: 1200px;
-  margin: 80px auto;
-  display: flex;
-  gap: 60px;
-  align-items: center;
-  padding: 0 40px;
-  box-sizing: border-box;
+    width: 100%;
+    max-width: 1200px;
+    margin: 80px auto;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    padding: 0 40px;
+    box-sizing: border-box;
 }
 
 .tango-image-col {
-  flex: 1;
+    flex: 1;
 }
 
 .tango-image-col img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 12px;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
 }
 
 .tango-text-col {
-  flex: 1;
-  font-size: 20px;
-  line-height: 1.7;
-  text-align: left;
+    flex: 1;
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: left;
+}
+
+/* Galerie doua imagini */
+.tango-gallery-row {
+    display: flex;
+    gap: 20px;
+    margin: 60px auto;
+    max-width: 1100px;
+    padding: 0 20px;
+}
+
+.tango-gallery-col {
+    flex: 1;
+}
+
+.tango-gallery-col img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Galerie verticala */
+.tango-gallery-vertical {
+    max-width: 1100px;
+    margin: 80px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.tango-gallery-vertical img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
+
+/* Explicatii sub poze */
+.poza-wrapper {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.poza-explicatie {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+/* Credit foto */
+.foto-credit {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    opacity: 0.7;
+    text-align: center;
+}
+
+/* Video Instagram */
+.tango-video {
+    max-width: 700px;
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
+.tango-video iframe {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.10);
+    border: none;
 }
 
 /* =========================
@@ -233,157 +304,55 @@ main {
 ========================= */
 @media (max-width: 900px) {
 
-  nav {
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 14px;
-  }
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 14px;
+    }
 
-  nav a {
-      font-size: 18px;
-      letter-spacing: 0.4px;
-  }
+    nav a {
+        font-size: 18px;
+        letter-spacing: 0.4px;
+    }
 
-  main {
-      margin: 20px 12px;
-      padding: 22px;
-      font-size: 18px;
-  }
+    main {
+        margin: 20px 12px;
+        padding: 22px;
+        font-size: 18px;
+    }
 
-  h1 {
-      font-size: 30px;
-  }
+    h1 {
+        font-size: 30px;
+    }
 
-  h2 {
-      font-size: 24px;
-  }
+    h2 {
+        font-size: 24px;
+    }
 
-  .despre-content {
-      flex-direction: column;
-  }
+    .despre-content {
+        flex-direction: column;
+    }
 
-  .despre-text {
-      max-width: 100%;
-      text-align: left;
-  }
+    .despre-text {
+        max-width: 100%;
+        text-align: left;
+    }
 
-  .despre-text p {
-      font-size: 16px;
-      line-height: 1.7;
-  }
+    .despre-text p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
 
-  .tango-row {
-    flex-direction: column;
-    gap: 30px;
-  }
+    .tango-row {
+        flex-direction: column;
+        gap: 30px;
+    }
 
-  .tango-text-col {
-    text-align: center;
-  }
-}
+    .tango-text-col {
+        text-align: center;
+    }
 
-/* Galerie doua imagini */
-.tango-gallery-row {
-  display: flex;
-  gap: 20px;
-  margin: 60px auto;
-  max-width: 1100px;
-  padding: 0 20px;
-}
-
-.tango-gallery-col {
-  flex: 1;
-}
-
-.tango-gallery-col img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 10px;
-}
-
-/* =========================
-   GALERIE VERTICALA (pozele de jos)
-========================= */
-.tango-gallery-vertical {
-  max-width: 1100px;
-  margin: 80px auto;
-  padding: 0 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-
-.tango-gallery-vertical img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 12px;
-}
-
-/* Credit foto */
-.foto-credit {
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  margin-top: 10px;
-  opacity: 0.7;
-  text-align: center;
-}
-
-
-/* =========================
-   VIDEO INSTAGRAM – PROPORTIE ECHILIBRATA
-========================= */
-.tango-video {
-  max-width: 700px;     /* mai îngust */
-  margin: 80px auto;
-  padding: 0 20px;
-}
-
-.tango-video iframe {
-  width: 100%;
-  aspect-ratio: 4 / 5;   /* mai compact decat 9/16 */
-  border-radius: 16px;
-  box-shadow: 0 8px 30px rgba(0,0,0,0.10);
-  border: none;
-}
-
-.poza-explicatie {
-  text-align: center;
-  font-size: 0.95rem;
-  margin-top: 8px;
-  color: #555;
-}
-
-.poza-wrapper {
-  margin-bottom: 25px;
-}
-
-.poza-explicatie {
-  text-align: center;
-  font-size: 0.95rem;
-  margin-top: 8px;
-  color: #555;
-}
-
-.tango-gallery-vertical {
-  display: block;
-}
-
-.poza-wrapper {
-  display: block;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.poza-wrapper img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.poza-explicatie {
-  margin-top: 10px;
-  font-size: 0.95rem;
-  color: #555;
+    .tango-gallery-row {
+        flex-direction: column;
+    }
 }
