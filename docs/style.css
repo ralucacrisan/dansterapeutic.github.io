@@ -365,3 +365,25 @@ main {
   margin-top: 8px;
   color: #555;
 }
+
+.tango-gallery-vertical {
+  display: block;
+}
+
+.poza-wrapper {
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.poza-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.poza-explicatie {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #555;
+}
