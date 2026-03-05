@@ -354,3 +354,14 @@ main {
   margin-top: 8px;
   color: #555;
 }
+
+.poza-wrapper {
+  margin-bottom: 25px;
+}
+
+.poza-explicatie {
+  text-align: center;
+  font-size: 0.95rem;
+  margin-top: 8px;
+  color: #555;
+}
