@@ -2,7 +2,8 @@
    FONT GENERAL
 ========================= */
 body {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Arial', cursive;
+    font-style: italic;
     margin: 0;
     padding: 0;
     background-color: #fafafa;
