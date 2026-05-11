@@ -25,7 +25,7 @@ body {
 a {
     color: #00A651;
     text-decoration: underline;
-    font-weight: 600;
+    font-weight: normal;
 }
 
 a:hover {
@@ -62,6 +62,7 @@ nav a {
 h1, h2 {
     text-align: center;
     color: #222;
+   font-weight: bold;
 }
 
 h1 {
